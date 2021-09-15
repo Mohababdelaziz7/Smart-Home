@@ -1,0 +1,44 @@
+10:50:27 **** Build of configuration Debug for project CLCD_NEW ****
+make all 
+Building file: ../HAL/CLCD_KHALED/CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"HAL/CLCD_KHALED/CLCD_program.d" -MT"HAL/CLCD_KHALED/CLCD_program.o" -c -o "HAL/CLCD_KHALED/CLCD_program.o" "../HAL/CLCD_KHALED/CLCD_program.c"
+In file included from ../HAL/CLCD_KHALED/CLCD_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../HAL/CLCD_KHALED/CLCD_program.c
+ 
+Building file: ../APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"APP/main.d" -MT"APP/main.o" -c -o "APP/main.o" "../APP/main.c"
+In file included from ../APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APP/main.c
+ 
+Building target: CLCD_NEW.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,CLCD_NEW.map -mmcu=atmega32 -o "CLCD_NEW.elf"  ./MCAL/UART/UART_program.o  ./MCAL/TIM1/TIM1_program.o  ./MCAL/TIM0/TIM0_program.o  ./MCAL/SPI/SPI_program.o  ./MCAL/GIE/GIE_program.o  ./MCAL/EXTI/EXTI_program.o  ./MCAL/DIO/DIO_program.o  ./MCAL/ADC/ADC_program.o  ./HAL/SW/SW_program.o  ./HAL/SSD/SSD_program.o  ./HAL/LED/LED_program.o  ./HAL/KBP/KBD_program.o  ./HAL/CLCD_KHALED/CLCD_program.o  ./APP/main.o   
+Finished building target: CLCD_NEW.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S CLCD_NEW.elf  >"CLCD_NEW.lss"
+Finished building: CLCD_NEW.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex CLCD_NEW.elf  "CLCD_NEW.hex"
+Finished building: CLCD_NEW.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 CLCD_NEW.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   22230 bytes (67.8% Full)
+(.text + .data + .bootloader)
+
+Data:        375 bytes (18.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

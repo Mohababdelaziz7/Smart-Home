@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;slave/DIO/CLCD_2/HAL/CLCD_Eng_Hesham&apos; to &apos;LED_khaled&apos;" description="Rename resource &apos;CLCD_Eng_Hesham&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="DIO/CLCD_2/HAL/CLCD_Eng_Hesham" name="LED_khaled" stamp="1629621757772" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;slave/DIO/CLCD_2/HAL/LED_khaled&apos; to &apos;CLCD_khaled&apos;" description="Rename resource &apos;LED_khaled&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="DIO/CLCD_2/HAL/LED_khaled" name="CLCD_khaled" stamp="1629621926055" updateReferences="true"/>
+</session>

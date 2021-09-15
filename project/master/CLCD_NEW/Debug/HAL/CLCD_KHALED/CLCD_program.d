@@ -1,0 +1,23 @@
+HAL/CLCD_KHALED/CLCD_program.o HAL/CLCD_KHALED/CLCD_program.o:  \
+ ../HAL/CLCD_KHALED/CLCD_program.c \
+  ../HAL/CLCD_KHALED/../../LIB/STD_TYPES.h \
+  ../HAL/CLCD_KHALED/../../LIB/BIT_MATH.h \
+  ../HAL/CLCD_KHALED/../../MCAL/DIO/DIO_interface.h \
+  ../HAL/CLCD_KHALED/../CLCD_KHALED/CLCD_config.h \
+  ../HAL/CLCD_KHALED/../CLCD_KHALED/CLCD_ExtreChar.h \
+  ../HAL/CLCD_KHALED/../CLCD_KHALED/CLCD_interface.h \
+  ../HAL/CLCD_KHALED/../CLCD_KHALED/CLCD_private.h
+
+../HAL/CLCD_KHALED/../../LIB/STD_TYPES.h:
+
+../HAL/CLCD_KHALED/../../LIB/BIT_MATH.h:
+
+../HAL/CLCD_KHALED/../../MCAL/DIO/DIO_interface.h:
+
+../HAL/CLCD_KHALED/../CLCD_KHALED/CLCD_config.h:
+
+../HAL/CLCD_KHALED/../CLCD_KHALED/CLCD_ExtreChar.h:
+
+../HAL/CLCD_KHALED/../CLCD_KHALED/CLCD_interface.h:
+
+../HAL/CLCD_KHALED/../CLCD_KHALED/CLCD_private.h:

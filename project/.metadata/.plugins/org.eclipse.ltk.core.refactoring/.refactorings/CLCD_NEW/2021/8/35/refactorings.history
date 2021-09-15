@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CLCD_NEW/HAL/CLCD_Eng_Hesham&apos; to &apos;CLCD_KHALED&apos;" description="Rename resource &apos;CLCD_Eng_Hesham&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="HAL/CLCD_Eng_Hesham" name="CLCD_KHALED" stamp="1629622050914" updateReferences="true"/>
+</session>
